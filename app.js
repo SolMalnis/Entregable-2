@@ -7,7 +7,7 @@ app.use(express.static(publicPath))
 
 
 
-app.listen(5050, ()=>{
+app.listen(process.env.PORT || 5050, ()=>{
     console.log('funciona en http://localhost:5050' )
 })
 
