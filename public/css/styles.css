@@ -352,7 +352,11 @@ footer{
     }
     .articulo:hover{
         max-height: 400px;
-     }
+    }
+
+    #search-form{
+        width: 300px;
+    }
 
 }
 @media (min-width: 1350px){

@@ -60,7 +60,7 @@ input{
 
 .burger-menu{
     color: white;
-    background-color: #03264C;
+    background-color: #1259c3;
     display: block;
     max-width: 30px;
     max-height: 30px;
@@ -68,6 +68,7 @@ input{
    border-radius: 8px;
    text-align: center;
    margin: auto;
+   margin-top: 20px;
 }
 .main-nav-bar{
     display: none;
@@ -247,5 +248,8 @@ footer{
         font-size: 22px;
         font-weight:400;
         margin: 0;
+    }
+    #search-form{
+        width: 300px;
     }
 }
